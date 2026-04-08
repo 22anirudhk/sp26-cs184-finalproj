@@ -140,6 +140,51 @@ title: Project Gargantua
       font-size: 2rem;
     }
   }
+
+  @media print {
+    .proposal-shell {
+      max-width: none;
+    }
+
+    .hero {
+      background: #ffffff;
+      color: #111111;
+      border: 2px solid #d7dce1;
+      box-shadow: none;
+      margin-bottom: 1rem;
+      page-break-inside: avoid;
+    }
+
+    .eyebrow {
+      color: #7a3a12;
+    }
+
+    .hero h1 {
+      color: #111111;
+      text-shadow: none;
+    }
+
+    .proposal-shell .hero p {
+      color: #111111;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 0;
+      backdrop-filter: none;
+      max-width: none;
+    }
+
+    .meta-card,
+    .callout {
+      box-shadow: none;
+      page-break-inside: avoid;
+    }
+
+    .proposal-shell a {
+      color: #7a3a12;
+      text-decoration: underline;
+    }
+  }
 </style>
 
 <div class="proposal-shell" markdown="1">
