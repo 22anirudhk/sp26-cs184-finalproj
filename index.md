@@ -4,14 +4,12 @@ title: Project Gargantua
 
 <style>
   :root {
-    --bg: #07111a;
-    --bg-soft: #0d1824;
-    --card: #101c29;
-    --text: #eef4f8;
-    --muted: #9bb0c1;
+    --card: #ffffff;
+    --text: #10202f;
+    --muted: #4f6476;
     --accent: #ff8f3d;
     --accent-soft: #ffd79a;
-    --border: rgba(255, 255, 255, 0.10);
+    --border: rgba(16, 32, 47, 0.12);
   }
 
   .proposal-shell {
@@ -66,7 +64,8 @@ title: Project Gargantua
     border: 1px solid var(--border);
     border-radius: 16px;
     padding: 1rem 1.1rem;
-    box-shadow: 0 10px 24px rgba(4, 7, 12, 0.08);
+    box-shadow: 0 10px 24px rgba(16, 32, 47, 0.06);
+    color: var(--text);
   }
 
   .meta-card strong,
@@ -76,7 +75,8 @@ title: Project Gargantua
 
   .callout {
     margin: 1.3rem 0 1.6rem;
-    background: linear-gradient(180deg, rgba(255, 143, 61, 0.10), rgba(16, 28, 41, 0.96));
+    background: linear-gradient(180deg, rgba(255, 143, 61, 0.12), rgba(255, 255, 255, 1));
+    border-left: 6px solid var(--accent);
   }
 
   .proposal-shell h2,
@@ -89,12 +89,32 @@ title: Project Gargantua
     padding-bottom: 0.35rem;
   }
 
+  .proposal-shell p,
+  .proposal-shell li,
+  .proposal-shell td,
+  .proposal-shell th {
+    color: var(--text);
+    line-height: 1.65;
+  }
+
   .proposal-shell table {
     width: 100%;
+    border-collapse: collapse;
   }
 
   .proposal-shell th {
     background: rgba(255, 143, 61, 0.08);
+  }
+
+  .proposal-shell th,
+  .proposal-shell td {
+    padding: 0.8rem 0.9rem;
+    border: 1px solid rgba(16, 32, 47, 0.10);
+    vertical-align: top;
+  }
+
+  .proposal-shell a {
+    color: #c95e14;
   }
 
   .muted {
