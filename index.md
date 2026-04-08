@@ -28,13 +28,18 @@ title: Project Gargantua
     margin-bottom: 1.5rem;
   }
 
-  .hero p {
+  .proposal-shell .hero p {
     color: rgba(247, 251, 255, 0.92);
     max-width: 44rem;
     margin-bottom: 0;
     font-size: 1.06rem;
     line-height: 1.7;
-    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.28);
+    text-shadow: none;
+    background: rgba(6, 14, 22, 0.72);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 1rem 1.1rem;
+    backdrop-filter: blur(4px);
   }
 
   .eyebrow {
