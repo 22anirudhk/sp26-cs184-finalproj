@@ -21,7 +21,7 @@ title: Project Gargantua
     background:
       radial-gradient(circle at 76% 38%, rgba(255, 151, 77, 0.95) 0, rgba(255, 143, 61, 0.55) 8%, rgba(255, 143, 61, 0.15) 16%, rgba(7, 17, 26, 0) 26%),
       linear-gradient(140deg, #08131f 10%, #0e1622 54%, #1f120b 100%);
-    color: var(--text);
+    color: #f7fbff;
     padding: 2.4rem 2.2rem;
     border-radius: 22px;
     box-shadow: 0 18px 50px rgba(4, 7, 12, 0.28);
@@ -29,9 +29,12 @@ title: Project Gargantua
   }
 
   .hero p {
-    color: rgba(238, 244, 248, 0.9);
+    color: rgba(247, 251, 255, 0.92);
     max-width: 44rem;
     margin-bottom: 0;
+    font-size: 1.06rem;
+    line-height: 1.7;
+    text-shadow: 0 1px 10px rgba(0, 0, 0, 0.28);
   }
 
   .eyebrow {
@@ -39,16 +42,18 @@ title: Project Gargantua
     letter-spacing: 0.18em;
     text-transform: uppercase;
     font-size: 0.74rem;
-    color: var(--accent-soft);
+    color: #ffe1bf;
     margin-bottom: 0.65rem;
+    font-weight: 700;
   }
 
   .hero h1 {
-    color: white;
+    color: #ffffff;
     margin-top: 0;
     margin-bottom: 0.5rem;
     font-size: 2.5rem;
     line-height: 1.05;
+    text-shadow: 0 2px 18px rgba(0, 0, 0, 0.32);
   }
 
   .meta-grid {
